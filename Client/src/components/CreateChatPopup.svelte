@@ -3,7 +3,7 @@
 
 	import axios from "axios";
 
-	import {API_HOST} from "../constants";
+	import { API_HOST } from "../constants";
 
 	export let onCreate: (newChatId: string) => void;
 	export let onClose: () => void;

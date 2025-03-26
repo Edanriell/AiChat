@@ -1,12 +1,12 @@
 <script lang="ts">
 	import "../styles/chatList.css";
 
-	import {onMount} from "svelte";
+	import { onMount } from "svelte";
 	import axios from "axios";
-	import {navigate} from "svelte-routing";
+	import { navigate } from "svelte-routing";
 
 	import CreateChatPopup from "./CreateChatPopup.svelte";
-	import {API_HOST} from "../constants";
+	import { API_HOST } from "../constants";
 
 	let chats: { id: string; name: string }[] = [];
 	let errorMessage: string | null = null;

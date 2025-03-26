@@ -1,14 +1,14 @@
 <script lang="ts">
 	import "../styles/chat.css";
 
-	import {onMount} from "svelte";
-	import {navigate} from "svelte-routing";
+	import { onMount } from "svelte";
+	import { navigate } from "svelte-routing";
 
 	import ChatListSideBar from "../components/ChatListSideBar.svelte";
 	import ChatDetails from "../components/ChatDetails.svelte";
 	import Header from "../components/Header.svelte";
 
-	import {authToken} from "../stores/auth";
+	import { authToken } from "../stores/auth";
 
 	export let chatId: string | null;
 

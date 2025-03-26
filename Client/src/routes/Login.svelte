@@ -1,12 +1,12 @@
 <script lang="ts">
 	import "../styles/auth.css";
 
-	import {onMount} from "svelte";
-	import {navigate} from "svelte-routing";
+	import { onMount } from "svelte";
+	import { navigate } from "svelte-routing";
 	import axios from "axios";
 
-	import {authToken} from "../stores/auth";
-	import {API_HOST} from "../constants";
+	import { authToken } from "../stores/auth";
+	import { API_HOST } from "../constants";
 
 	let email = "";
 	let password = "";

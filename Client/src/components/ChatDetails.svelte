@@ -1,10 +1,10 @@
 <script lang="ts">
 	import "../styles/chatDetails.css";
 
-	import {onMount} from "svelte";
+	import { onMount } from "svelte";
 	import axios from "axios";
 
-	import {API_HOST} from "../constants";
+	import { API_HOST } from "../constants";
 
 	export let chatId: string;
 	let messages: { id: string; message: string; createdAt: number }[] = [];

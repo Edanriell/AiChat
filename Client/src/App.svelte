@@ -1,5 +1,5 @@
 <script>
-	import {Route, Router} from "svelte-routing";
+	import { Route, Router } from "svelte-routing";
 
 	import Register from "./routes/Register.svelte";
 	import Login from "./routes/Login.svelte";

@@ -1,10 +1,10 @@
 <script lang="ts">
 	import "../styles/header.css";
 
-	import {navigate} from "svelte-routing";
-	import {_, locale} from "svelte-i18n";
+	import { navigate } from "svelte-routing";
+	import { _, locale } from "svelte-i18n";
 
-	import {authToken} from "../stores/auth";
+	import { authToken } from "../stores/auth";
 
 	const name = authToken.getPayload()?.name || "User";
 	function logout() {
